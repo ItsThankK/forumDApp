@@ -26,8 +26,8 @@ async function addComment() {
     const message = document.getElementById("message").value
     if(message === ''){
         alert('Please enter a feedback!!')
-    }else{
-         console.log(`Adding your ${message}...`);
+    }
+     console.log(`Adding your ${message}...`);
     const provider = new ethers.providers.Web3Provider(window.ethereum)
     const signer = provider.getSigner()
     const contract = new ethers.Contract(contractAddress, abi, signer)
@@ -44,7 +44,7 @@ async function addComment() {
 
 
 }
-    }
+ 
    
 const main = document.querySelector('main')
 
