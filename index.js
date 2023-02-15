@@ -25,7 +25,7 @@ async function addComment() {
   if (typeof window.ethereum !== undefined) {
     const message = document.getElementById("message").value
     if(message === ''){
-        alert('Please enter a feedback!!')
+        alert('You are trying to add an EMPTY feedback!')
     }
      console.log(`Adding your ${message}...`);
     const provider = new ethers.providers.Web3Provider(window.ethereum)
