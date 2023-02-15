@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.67);
+    font-family: sans-serif;
+}
+section .githublinkBtn {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+ .githublinkBtn {
+    text-decoration: none;
+    background-color: rgb(80, 95, 255);
+    padding: 0.67rem;
+    border-radius:3px;
+    margin-top: 1rem;
+    color:#fff;
+ }
+
+
+main {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin:0 auto;
+}
+main pre {
+    font-size:1.5rem;
+    line-height:3rem;
+    color: #fff;
+}
+main article {
+    width: 70vw;
+    word-wrap: break-word;
+    color: #fff;
+    transition: 2s;
+    border-radius:4px;
+}
+main article:hover{
+    background-color:rgb(53, 47, 47);
+    z-index: 1;
+    transform: scale(1.02);
+    padding: 0.75rem;
+    transition: 2s;
+}
+.form {
+    color: #fff;
+    margin-left:1rem;
+    margin-top: 3rem;
+}
+.form  button {
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius:3px;
+    background-color: rgb(53, 53, 87);
+}
+.form  button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.form input{
+    width:50vw;
+    text-indent:3px;
+    outline:none;
+    height:35px;
+    border-radius:3px;
+}
+.loading{
+    font-size:2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
